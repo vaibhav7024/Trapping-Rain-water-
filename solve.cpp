@@ -1,6 +1,5 @@
 class Solution {
 public:
-    
     int trap(vector<int>& height) {
     int left = 0, right = height.size() - 1;
     int left_max = 0, right_max = 0;
@@ -21,8 +20,6 @@ public:
             --right;
         }
     }
-
     return total_water;
-
     }
 };
